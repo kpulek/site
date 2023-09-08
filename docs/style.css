@@ -24,11 +24,13 @@ header {
 p.title {
 	font-size: 2em;
 	line-height: 0.5em;
+	padding:0px;
 }
 
 p.subtitle {
 	font-size: 1.5em;
 	line-height: 0.5em;
+	padding:0px;
 }
 
 .topnav {
