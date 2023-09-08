@@ -16,31 +16,30 @@ body {
 }
 
 header {
-	background-color: #222;
+	background-color: #435334;
 	color: #eee;
-	padding: 20px 10px;
+	padding: 5px 20px;
 }
 
-.title {
+p.title {
 	font-size: 2em;
 	line-height: 0.8em;
 }
 
-.subtitle {
+p.subtitle {
 	font-size: 1.5em;
-	line-height: 0.8em;
+	line-height: 0.5em;
 }
 
-
 .topnav {
-	background-color: #435334;
+	background-color: #cedebd;
 	overflow: hidden;
-	margin-bottom: 10px;
+	margin: 0px 50px 10px 50px;
 }
 
 .topnav a {
 	float: left;
-	color: #eee;
+	color: #222;
 	text-align: center;
 	padding: 10px 50px;
 	text-decoration: none;
@@ -53,6 +52,6 @@ header {
 }
 
 .topnav a.active {
-	background-color: #cedebd;
+	background-color: #eee;
 	color: #222;
 }
