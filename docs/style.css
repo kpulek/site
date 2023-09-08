@@ -19,6 +19,7 @@ header {
 	background-color: #435334;
 	color: #eee;
 	padding: 5px 20px;
+	display:block;
 }
 
 p.title {
