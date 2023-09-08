@@ -19,6 +19,7 @@ h1, h3 {
 header {
 	background-color: #222;
 	color: #eee;
+	padding: 0px;
 }
 
 .topnav {
