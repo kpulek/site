@@ -12,26 +12,34 @@ body {
 	background-color: #faf1e4; /*tan*/
 }
 
-h1, h3 {
-	line-height: 0.8em;
-}
-
 header {
 	background-color: #222;
 	color: #eee;
-	padding: 0px;
+	padding: 20px 10px;
 }
+
+.title {
+	font-size: 2em;
+	line-height: 0.8em;
+}
+
+.subtitle {
+	font-size: 1.5em;
+	line-height: 0.8em;
+}
+
 
 .topnav {
 	background-color: #435334;
 	overflow: hidden;
+	margin-bottom: 10px;
 }
 
 .topnav a {
 	float: left;
 	color: #eee;
 	text-align: center;
-	padding: 0px 50px;
+	padding: 10px 50px;
 	text-decoration: none;
 	font-size: 1.5em;
 }
