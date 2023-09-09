@@ -10,7 +10,7 @@
 body {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	margin: 0px;
-	padding: 0px;
+	padding: 0px 100px;
 	font-size: 16px;
 	background-color: #faf1e4; /*tan*/
 }
@@ -22,39 +22,71 @@ header {
 	display:block;
 }
 
+main {
+	padding: 10px 25px;
+}
+
+.flex-container {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 10px 20px;
+	padding: 0;
+	margin: 0;
+}
+
+.item {
+	flex: 0 1 auto;
+}
+
+table.home_stats {
+	
+}
+
+.full {
+	width:100%
+}
+
 p.title {
 	font-size: 2em;
-	line-height: 0.5em;
+	line-height: 0em;
 	padding:0px;
 }
 
 p.subtitle {
 	font-size: 1.5em;
-	line-height: 0.5em;
+	line-height: 0em;
 	padding:0px;
+}
+
+table.standard {
+	padding: 10px 0px;
 }
 
 .topnav {
 	background-color: #cedebd;
 	overflow: hidden;
-	margin: 0px 50px 10px 50px;
+	margin: 0px;
 }
 
 .topnav a {
 	float: left;
 	color: #222;
 	text-align: center;
-	padding: 10px 50px;
+	padding: 10px 40px;
 	text-decoration: none;
-	font-size: 1.5em;
+	font-size: 1em;
 }
 
 .topnav a:hover {
 	background-color: #9eb384;
 	color: #222;
+	text-decoration: underline;
 }
 
 .topnav a.active {
-	background-color: #eee;
-	color: #222;
+	background-color: #222;
+	color: #eee;
+	text-decoration: underline;
 }
